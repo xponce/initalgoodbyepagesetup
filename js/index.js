@@ -1,7 +1,7 @@
-// JavaScript
-// window.addEventListener('load', function () {
-//     document.querySelector('.element').classList.add('fade-in');
-// });
+window.addEventListener('load', function() {
+    let section = document.getElementById("letter");
+    section.style.animation = "fadeIn 2.5s ease forwards";
+});
 
 
 document.getElementById("facebookShareButton").addEventListener("click", function () {

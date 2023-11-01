@@ -36,6 +36,8 @@ main {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 2.5s ease forwards;
 }
 
 footer {
@@ -57,11 +59,11 @@ footer {
     background-position: center;
 }
 
-/* .element {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-
-.element.fade-in {
-    opacity: 1;
-} */
