@@ -18,6 +18,6 @@ function shareOnFacebook() {
 }
 
 function shareOnTwitter() {
-    let text = "Check out this goodbye letter to alcohol: [Your Page URL]";
+    let text = "Check out this goodbye letter to alcohol: [https://goodbyetoalcoholletter-2023.web.app/]";
     window.open('https://twitter.com/intent/tweet?text=' + encodeURI(text), '_blank');
 }
