@@ -3,9 +3,13 @@ body,
 h1 {
     margin: 0;
     padding: 0;
+    text-align: center;
     /* margin-bottom: 15px; */
 }
 
+#letter h2 {
+    text-align: center;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -48,7 +52,7 @@ footer {
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url(https://media.istockphoto.com/id/1411002390/photo/rainbow-in-the-dunes-at-texel-island-in-the-wadden-sea-region.jpg?s=2048x2048&w=is&k=20&c=lA7jyNG4d7rl5_Ze5mIZYIkALL2yGSnsRQsDASE0XLk=);
+    background-image: url(https://images.pexels.com/photos/2279334/pexels-photo-2279334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
 }
