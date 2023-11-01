@@ -23,6 +23,8 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 #letter {
@@ -39,6 +41,17 @@ footer {
     padding: 10px 0;
 }
 
+#bg-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(https://media.istockphoto.com/id/1411002390/photo/rainbow-in-the-dunes-at-texel-island-in-the-wadden-sea-region.jpg?s=2048x2048&w=is&k=20&c=lA7jyNG4d7rl5_Ze5mIZYIkALL2yGSnsRQsDASE0XLk=);
+    background-size: cover;
+    background-position: center;
+}
 
 /* .element {
     opacity: 0;
